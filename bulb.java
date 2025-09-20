@@ -6,13 +6,14 @@ public class bulb implements factory{
         this.id = id;
     }
 
-    public void poweruse(double battery) {
-        this.battery = battery;
+    public void poweruse(double batry) {
+        this.batry = batry;
     }
 
     @Override
     public void make() {
-        System.out.println("A "+id+" brand bulb was made with a battery power of "+battery);
+        System.out.println("A "+id+" brand bulb was made with a battery power of "+batry);
     }
 }
+
 
