@@ -11,7 +11,7 @@ Author(s): Kingsley Qiu, Farhan Shameer, Aaraan Mahmood
 
 - `uml_diagram/` -> Contains the class diagrams and any other designs we might have used (`.png`, `.svg`, or `.uml` files)
 - `code/` -> Contains the source files for the code that we implemented from our designs
-- `test-methods` -> Contains the files for testing methods that we used for debugging and analyzing the source code
+- `test-methods/` -> Contains the files for testing methods that we used for debugging and analyzing the source code
 
 
 ---
