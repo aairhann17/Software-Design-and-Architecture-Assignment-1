@@ -6,7 +6,7 @@ public class lock implements factory{
         this.id = id;
     }
 
-    public void batteryPower(double power){
+    public void batrypower(double power){
         this.power = power;
     }
 
@@ -15,5 +15,6 @@ public class lock implements factory{
         System.out.println("A "+id+" brand lock was made and it uses a power of "+power+" watts");
     }
 }
+
 
 
