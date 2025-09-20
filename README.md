@@ -10,9 +10,12 @@ Author(s): Kingsley Qiu, Farhan Shameer, Aaraan Mahmood
 ## Repository Contents
 
 - `uml_diagram/` -> Contains the class diagrams and any other designs we might have used (`.png`, `.svg`, or `.uml` files)
-- `code/` -> Contains the source files for the code that we implemented from our designs
-- `test-methods/` -> Contains the files for testing methods that we used for debugging and analyzing the source code
-
-
+- factory (`interface`) Declares the make() method and acts as the product interface that all concrete products (bulb, lock) must implement.
+- bulb (`concrete product`) Implements factory, represents a bulb, and defines how it uses battery power and is created.
+- lock (`concrete product`) Implements factory, represents a lock, and defines how it uses power and is created.
+- orders (`abstract creator`) Declares the factory method createparts() and provides the template orderparts() for creating and initializing products.
+- bulborders (`concrete creator`) Extends orders and implements createparts() to produce bulb objects.
+- lockorders (`concrete creator`) Extends orders and implements createparts() to produce lock objects.
+- test (`client`) Contains main() and demonstrates ordering products using the factory classes.
 ---
 
