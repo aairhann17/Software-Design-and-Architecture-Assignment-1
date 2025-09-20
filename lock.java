@@ -12,6 +12,7 @@ public class lock implements factory{
 
     @Override
     public void make() {
-        System.out.println("A "+id+" brand locke was made and it uses a power of "+power+" watts");
+        System.out.println("A "+id+" brand lock was made and it uses a power of "+power+" watts");
     }
 }
+
