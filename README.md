@@ -16,6 +16,9 @@ Author(s): Kingsley Qiu, Farhan Shameer, Aaraan Mahmood
 - orders (`abstract creator`) Declares the factory method createparts() and provides the template orderparts() for creating and initializing products.
 - bulborders (`concrete creator`) Extends orders and implements createparts() to produce bulb objects.
 - lockorders (`concrete creator`) Extends orders and implements createparts() to produce lock objects.
+- smartdevice (`abstract factory`) Declares methods createBulb() and createLock() to produce products of different types.
+- brand_A (`concrete factory`) Implements smartdevice to create bulb and lock objects for Brand A.
+- brand_B (`concrete factory`) Implements smartdevice to create bulb and lock objects for Brand B.
 - test (`client`) Contains main() and demonstrates ordering products using the factory classes.
 ---
 
