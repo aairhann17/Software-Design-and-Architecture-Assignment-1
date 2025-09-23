@@ -1,9 +1,11 @@
 public class test {
     public static void main(String[] args) {
-        orders Bulb_A = new bulborders();
-        orders Lock_B = new lockorders();
+        smartdevice brandA = new brand_A();
+        smartdevice brandB = new brand_B();
 
-        factory FactoryA = Bulb_A.orderparts("company A");
-        factory FactoryB = Lock_B.orderparts("company B");
+        factory bulbA = brandA.createBulb("Brand A");
+        factory lockB = brandB.createLock("Brand B");
     }
 }
+
+
