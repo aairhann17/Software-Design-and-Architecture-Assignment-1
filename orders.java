@@ -9,7 +9,7 @@ public abstract class orders {
         factory type = createparts(id);
 
         if (type instanceof bulb x) {
-            x.poweruse(simbatteryusefromfile());
+            x.poweruse(simpowerusefromfile());
         }
         else if (type instanceof lock x) {
             x.batrypower(simbatteryusefromfile());
@@ -29,4 +29,5 @@ public abstract class orders {
 
     public abstract factory createparts(String id);
 }
+
 
